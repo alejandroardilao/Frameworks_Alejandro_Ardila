@@ -1,0 +1,109 @@
+.musica-body {
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.btn:hover{
+  background-color: Blue;
+  color: white;
+}
+
+img:hover{
+  background-color: Blue;
+}
+
+.btn{
+  background-color: white;
+  padding: 1px;
+}
+
+.contenido{
+  background-color: white;
+  margin: auto;
+}
+
+.img{
+  width: 100%;
+  margin: auto;
+}
+
+.articulo{
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.lista ul{
+  margin-top: 10px;
+  width: 350px;
+  height: 100%;
+}
+
+.lista ul p{
+  text-align: left;
+  margin: auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: lightgrey;
+}
+
+.lista ul p:hover{
+  background-color: Blue;
+  color: white;
+}
+
+#comment{
+  width: 100%;
+  margin: auto;
+}
+
+@media (max-width: 2000px) {
+  a{
+    width: 15%;
+  }
+  }
+
+  @media (max-width: 768px) {
+    a{
+      width: 25%;
+      margin-top: 10px;
+    }
+    }
+
+.col{
+  margin: 0px;
+  padding: 10px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script src='js/bootstrap.min.js'></script>
+    <title>Blog de Música</title>
+  </head>
+  <body class="musica-body">
+    <header>
+      <!--Logo: Utiliza el sistema de rejilla de bootstrap para ubicar el logo del blog en la parte derecha de la pantalla, recuerda usar una imagen-->
+      <nav class='navbar'>
+        <img class='logo-img' src='img/logo.png'/>
+        <!--Redes Sociales: Utilizando la rejilla y los iconos correspondientes, ubica los vínculos o enlaces a las diferentes redes sociales, estos deben estar ubicados en la esquina inferior izquierda del header. -->
+        <div class='redes-sociales'>
+          <a href="#"><img class='img-rounded img-social' src='img/fb.png'/></a>
+          <a href="#"><img class='img-rounded img-social' src='img/ig.png'/></a>
+          <a href="#"><img class='img-rounded img-social' src='img/tt.png'/></a>
+        </div>
+      </nav>
+    </header>
+
+    <!--Navegación: Debajo del header y distribuido a lo ancho de la pantalla debes hacer un navbar que contenga 6 items. -->
+    <nav class='navbar'>
+      <div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center'>
+        <a href="#" class="btn btn-lg">Inicio</a>
+        <a href="#" class="btn btn-lg">Artistas</a>
+        <a href="#" class="btn btn-lg">Grupos</a>
+        <a href="#" class="btn btn-lg">Top 10</a>
+        <a href="#" class="btn btn-lg">Letras</a>
+        <a href="#" class="btn btn-lg">Acordes</a>
+      </div>
+    </nav>
+      <div class="row contenido">
+          <!--Contenido: El contenido del blog debe contener por lo menos dos artículos o post, intercalando la posición de la imágenes usando el sistema de rejilla, también se debe agregar un textarea para ingresar un comentario.-->
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+          <div class="row articulo">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+              <div class="row">
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-8">
+              <h2>Daddy Yankee se presentará en octubre en Bogotá</h2>
+              <p>El cantante puertorriqueño estará en el Movistar Arena el 3 de octubre en el marco de su gira "Con calma", donde cantará sus clásicos y sus grandes éxitos actuales.</p>
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center">
+              <img class='img' src='img/img1.jpg'/>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-12 col-xs-12 col-sm-12">
+            <div class="row comentario">
+              <!--Comentario 1-->
+              <div class="col col-xs-1 col-sm-1 col-md-1 col-lg-1  text-right">
+                <i class="material-icons">face</i>
+              </div>
+              <div class="col col-xs-11 col-sm-11 col-md-11 col-lg-11 text-rigth">
+                <textarea class="form-control" rows="1" id="comment" placeholder="Comentario..."></textarea>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="row articulo">
+            <div class="col-lg-4">
+              <img class='img' src='img/img2.jpg'/>
+            </div>
+            <div class="col-lg-8">
+              <h2>Murió Joao Gilberto, uno de los padres de la bossa nova</h2>
+              <p>El artista brasileño, que fue el inventor de los revolucionarios acordes que convirtieron a la bossa nova en un ritmo único y admirado en todo el mundo, murió a los 88 años en Río de Janeiro.</p>
+            </div>
+            <!--Comentario 2-->
+            <div class="col col-xs-1 col-sm-1 col-md-1 col-lg-1  text-right">
+              <i class="material-icons">face</i>
+            </div>
+            <div class="col col-xs-11 col-sm-11 col-md-11 col-lg-11 text-rigth">
+              <textarea class="form-control" rows="1" id="comment"  placeholder="Comentario..."></textarea>
+            </div>
+          </div>
+          <div class="row articulo">
+            <div class="col-lg-8">
+              <h2>Plácido Domingo: "Si descanso, me oxido"</h2>
+              <p>Durante julio, el cantante lírico actuará en Baden-Baden (Alemania) donde asumirá los roles principales en dos creaciones de Verdi. Luego, aterrizará en Praga para estar al frente de "Operalia", el concurso internacional que creó en 1993.</p>
+            </div>
+            <div class="col-lg-4">
+              <img class='img' src='img/img3.jpg'/>
+            </div>
+            <!--Comentario 3-->
+            <div class="col col-xs-1 col-sm-1 col-md-1 col-lg-1  text-right">
+              <i class="material-icons">face</i>
+            </div>
+            <div class="col col-xs-11 col-sm-11 col-md-11 col-lg-11 text-rigth">
+              <textarea class="form-control" rows="1" id="comment"placeholder="Comentario..."></textarea>
+            </div>
+          </div>
+        </div>
+      <!--Buscador: Utiliza el sistema de rejilla para ubicar correctamente la sección del contenido y esta sección, ubica un input que servirá como buscador y un icono referente.
+      Opciones de búsqueda: Debajo de el input que servirá como buscador, utiliza un componente de bootstrap para mostrar el listado de opciones que están disponibles para la búsqueda.
+      Diseño Adaptativo:La página debe verse de manera adecuada desde cualquier dispositivo.-->
+        <!--Buscador-->
+        <div class="col-lg-4 text-center">
+          <div class="row buscador">
+            <div class="col col-xs-2 col-sm-2 col-md-2 col-lg-1 text-right">
+              <i class="material-icons">search</i>
+            </div>
+            <div class="col col-xs-10 col-sm-10 col-md-10 col-lg-11">
+              <input type="text" class="form-control" id="buscador">
+            </div>
+            <!--Lista de canciones-->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="row lista">
+                <ul>
+                  <p>Imagine</p>
+                  <p>Stairway To Heaven</p>
+                  <p>Let It Be (cancion)</p>
+                  <p>I Can't Get No Satisfaction</p>
+                  <p>Hey Jude</p>
+                  <p>Comfortably Numb</p>
+                  <p>Light My Fire</p>
+                  <p>Good Vibrations</p>
+                  <p>Like A Rolling Stone</p>
+                  <p>Bohemian Rhapsody</p>
+                  <p>Wish You Were Here</p>
+                  <p>Yesterday</p>
+                  <p>My Generation</p>
+                  <p>What's Going On</p>
+                  <p>Johnny B. Goode</p>
+                  <p>Layla</p>
+                  <p>Won't Get Fooled Again</p>
+                  <p>While My Guitar Gently Weeps</p>
+                  <p>Paint It, Black</p>
+                  <p>A Day in the Life</p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

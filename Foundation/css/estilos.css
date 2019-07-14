@@ -1,0 +1,109 @@
+body{
+  background: url(../img/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container{
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(157, 241, 255, 0.2);
+  opacity: 1;
+}
+
+img{
+  min-height: 70px;
+  width: 100%;
+}
+
+img:hover{
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+}
+.Encabezado{
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+  background: url(../img/body.jpg);
+}
+
+.titulo{
+  color:white;
+  text-shadow: -2px -2px 1px #000000;;
+}
+
+.Columna1{
+  border-right-style: solid;
+  border-right-color: lightgrey;
+}
+
+.Post{
+  border-bottom-style: solid;
+  border-bottom-color: lightgrey;
+}
+
+.menu{
+  background-color: #F9E79F;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+.menu a{
+  border-style: outset;
+  border-color: #1779ba;
+  text-align: center;
+}
+
+a:hover{
+  color:red;
+}
+
+.comentario{
+  flex-flow: wrap;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.chip{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: lightgrey;
+  margin: 2px;
+}
+.chip img{
+    height: 1%;
+    width: 10%;
+    overflow: scroll;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
